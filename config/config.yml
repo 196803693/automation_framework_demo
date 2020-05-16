@@ -1,1 +1,7 @@
 URL: http://120.78.122.10:4010/
+log:
+    file_name: test.log
+    backup: 5
+    consle_level: WARNING
+    file_level: DEBUG
+    pattern: '%(name)s - %(levelname)s - %(asctime)s - %(message)s'

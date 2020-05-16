@@ -1,5 +1,5 @@
 import os
 import yaml
-
-print(os.path.abspath(__file__))
-print(os.path.split(os.path.abspath(__file__)))
+aTuple = (123,'aadsg',43437,'tyrt')
+li = list(aTuple)
+print(li)

@@ -1,0 +1,8 @@
+framework - INFO - 2020-05-10 16:38:23,893 - 机房远程监控系统
+%(name)s - %(levelname)s - %(asctime)s - %(message)s
+%(name)s - %(levelname)s - %(asctime)s - %(message)s
+%(name)s - %(levelname)s - %(asctime)s - %(message)s
+%(name)s - %(levelname)s - %(asctime)s - %(message)s
+%(name)s - %(levelname)s - %(asctime)s - %(message)s
+framework - INFO - 2020-05-10 18:00:50,921 - info message
+framework - INFO - 2020-05-10 18:04:17,504 - 机房远程监控系统
