@@ -10,6 +10,7 @@ class Logger:
         # self.logger.setLevel(logging.INFO)
         logging.root.setLevel(logging.NOTSET)
         log_cfg = Config().get('log')
+        print(log_cfg)
         self.log_file_name = log_cfg.get('file_name') if log_cfg and log_cfg.get('file_name') else 'test.log'
         #日志输出的级别
         self.console_output_level = log_cfg.get('consle_level') if log_cfg and log_cfg.get('consle_level') else 'WARNING'
@@ -24,7 +25,6 @@ class Logger:
 
     def get_logger(self):
         if not self.logger.handlers:    #避免重复日志
-            print('StreamHandler')
             console_hdl = logging.StreamHandler()
             console_hdl.setLevel(self.console_output_level)
             console_hdl.setFormatter(self.formatter)

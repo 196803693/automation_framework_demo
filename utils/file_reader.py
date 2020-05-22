@@ -39,7 +39,6 @@ class ExcelReader:
                 st = workbook.sheet_by_name(self.sheet)
             title = st.row_values(0)
             for r in range(1,st.nrows):
-                print(list(zip(title,st.row_values(r))))
                 #依次遍历其余行，与首行组成dict，拼到_data中
                 self._data.append(dict(zip(title,st.row_values(r))))
         return self._data

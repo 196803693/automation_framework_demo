@@ -1,7 +1,7 @@
 from utils.file_reader import YamlReader
 import os
 
-BASE_PATH = os.path.dirname(os.getcwd())
+BASE_PATH = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
 CONFIG_FILE_PATH = os.path.join(BASE_PATH, 'config', 'config.yml')
 DATA_PAHT = os.path.join(BASE_PATH, 'data')
 DRIVER_PATH = os.path.join(BASE_PATH, 'driver')
@@ -10,6 +10,7 @@ REPORT_PAHT = os.path.join(BASE_PATH, 'report')
 
 class Config:
     def __init__(self,config_path=CONFIG_FILE_PATH):
+        print('文件路径',config_path)
         self.config_list = YamlReader(config_path).data
     def get(self,element,index=0):
         '''
@@ -22,3 +23,4 @@ if __name__ == '__main__':
     log_cfg = Config().get('log')
     print(log_cfg)
     print(log_cfg.get('file_name'))
+    print('路径测试',os.path.split(os.getcwd()+'\\test'))
