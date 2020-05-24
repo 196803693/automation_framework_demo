@@ -1,4 +1,9 @@
-import time
+import requests
+import json
 
-t = time.time()
-print(t)
+data = {
+    'name':'Nense',
+    'age':31
+}
+
+print('data的值是{}'.format(data))

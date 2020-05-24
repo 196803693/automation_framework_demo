@@ -44,9 +44,9 @@ class ExcelReader:
         return self._data
 if __name__ == '__main__':
     base_path = os.path.dirname(os.getcwd())
-    yaml_path = os.path.join(base_path, 'config', 'test.yaml')
+    yaml_path = os.path.join(base_path, 'config', 'config.yml')
     yr = YamlReader(yaml_path)
-    print(yr.data)
+    print(yr.data[0].get('log'))
     excel_path = os.path.join(base_path,'data','user_account.xlsx')
     er = ExcelReader(excel_path,sheet=0)
     print(er.data)

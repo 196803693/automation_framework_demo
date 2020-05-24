@@ -23,4 +23,5 @@ if __name__ == '__main__':
     log_cfg = Config().get('log')
     print(log_cfg)
     print(log_cfg.get('file_name'))
+
     print('路径测试',os.path.split(os.getcwd()+'\\test'))

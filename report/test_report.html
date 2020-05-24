@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>测试登录</title>
+    <title>测试登录02</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>测试登录</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-05-22 11:16:15</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:37.236130</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<h1>测试登录02</h1>
+<p class='attribute'><strong>Start Time:</strong> 2020-05-24 23:31:40</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:08.232000</p>
+<p class='attribute'><strong>Status:</strong> Error 2</p>
 
 <p class='description'>这是今天的报告，请查收</p>
 </div>
@@ -224,15 +224,72 @@ function showOutput(id, name) {
 <tr class='errorClass'>
     <td>test_login.TestLogin</td>
     <td>2</td>
-    <td>1</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
+    <td>2</td>
     <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login_0_admin</div></td>
-    <td colspan='5' align='center'>pass</td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_0_admin</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 22, in setUp
+    self.page = LoginPage().get(self.URL)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\page.py", line 8, in __init__
+    super().__init__(browser_type)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\browser.py", line 10, in __init__
+    self.driver = webdriver.Chrome(executable_path=driver_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 22, in setUp
+    self.page = LoginPage().get(self.URL)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\page.py", line 8, in __init__
+    super().__init__(browser_type)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\browser.py", line 10, in __init__
+    self.driver = webdriver.Chrome(executable_path=driver_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr id='ft1.2' class='none'>
@@ -251,36 +308,42 @@ function showOutput(id, name) {
         <pre>
         
 ft1.2: Traceback (most recent call last):
-  File "D:\Program Files\Python\Python37\lib\site-packages\parameterized\parameterized.py", line 530, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "D:\MyPythonProjects\automation_framework_demo\test\testCase\test_login.py", line 35, in test_login
-    title_lg = self.driver.find_element_by_css_selector('div.title-lg&gt;b')
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
-    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 22, in setUp
+    self.page = LoginPage().get(self.URL)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\page.py", line 8, in __init__
+    super().__init__(browser_type)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\browser.py", line 10, in __init__
+    self.driver = webdriver.Chrome(executable_path=driver_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
     self.error_handler.check_response(response)
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.title-lg&gt;b"}
-  (Session info: chrome=81.0.4044.138)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
 
 Traceback (most recent call last):
-  File "D:\Program Files\Python\Python37\lib\site-packages\parameterized\parameterized.py", line 530, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "D:\MyPythonProjects\automation_framework_demo\test\testCase\test_login.py", line 35, in test_login
-    title_lg = self.driver.find_element_by_css_selector('div.title-lg&gt;b')
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
-    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 22, in setUp
+    self.page = LoginPage().get(self.URL)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\page.py", line 8, in __init__
+    super().__init__(browser_type)
+  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\common\browser.py", line 10, in __init__
+    self.driver = webdriver.Chrome(executable_path=driver_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
     self.error_handler.check_response(response)
-  File "D:\Program Files\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.title-lg&gt;b"}
-  (Session info: chrome=81.0.4044.138)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 80
 
 
 
@@ -294,9 +357,9 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 <tr id='total_row'>
     <td>Total</td>
     <td>2</td>
-    <td>1</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>

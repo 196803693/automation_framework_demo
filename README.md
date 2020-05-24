@@ -1,1 +1,5 @@
-# automation_framework_demo
+Python 3
+selenium
+PyYaml
+xlrd
+requests

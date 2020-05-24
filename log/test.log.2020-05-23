@@ -1,0 +1,16 @@
+framework - INFO - 2020-05-21 19:50:51,046 - info message
+framework - INFO - 2020-05-21 20:00:59,053 - info message
+framework - INFO - 2020-05-21 20:01:37,562 - info message
+framework - INFO - 2020-05-21 20:43:15,542 - 机房远程监控系统
+framework - INFO - 2020-05-21 20:47:50,451 - 机房远程监控系统
+framework - INFO - 2020-05-21 20:51:23,469 - 机房远程监控系统
+framework - INFO - 2020-05-22 10:55:32,966 - 机房远程监控系统
+framework - INFO - 2020-05-22 10:57:54,789 - attach file D:\MyPythonProjects\automation_framework_demo\report\test_report.html
+framework - INFO - 2020-05-22 10:57:58,392 - 发送邮件"测试登录的报告"成功! 收件人：zns_test01@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+framework - INFO - 2020-05-22 11:16:28,834 - 机房远程监控系统
+framework - INFO - 2020-05-22 11:16:52,633 - attach file D:\MyPythonProjects\automation_framework_demo\report\test_report.html
+framework - INFO - 2020-05-22 11:16:54,518 - 发送邮件"测试登录的报告"成功! 收件人：zns_test01@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+framework - INFO - 2020-05-22 15:40:31,902 - 机房远程监控系统
+framework - INFO - 2020-05-23 14:36:19,294 - 机房远程监控系统
+framework - INFO - 2020-05-23 14:37:02,445 - attach file E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\report\test_report.html
+framework - INFO - 2020-05-23 14:37:05,677 - 发送邮件"测试登录的报告"成功! 收件人：zns_test01@163.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
