@@ -1,7 +1,7 @@
 import logging
 
 logger = logging.getLogger('test')
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 logger.addHandler(logging.StreamHandler())
 # fmt = logging.Formatter('%(name)s - %(levelname)s - %(asctime)s - %(message)s')
 fh = logging.FileHandler('test.log')

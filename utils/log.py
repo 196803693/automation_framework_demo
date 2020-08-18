@@ -44,3 +44,4 @@ class Logger:
 logger = Logger().get_logger()
 if __name__ == '__main__':
     logger.info('info message')
+    logger.debug('debug')
