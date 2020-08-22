@@ -57,3 +57,165 @@ framework - DEBUG - 2020-08-16 01:15:02,206 - 请求成功<Response [200]>
 {"data":{"yesterday":{"date":"15日星期六","high":"高温 31℃","fx":"南风","low":"低温 24℃","fl":"<![CDATA[2级]]>","type":"阴"},"city":"北京","forecast":[{"date":"16日星期天","high":"高温 28℃","fengli":"<![CDATA[2级]]>","low":"低温 22℃","fengxiang":"南风","type":"雷阵雨"},{"date":"17日星期一","high":"高温 29℃","fengli":"<![CDATA[1级]]>","low":"低温 22℃","fengxiang":"东南风","type":"雷阵雨"},{"date":"18日星期二","high":"高温 30℃","fengli":"<![CDATA[2级]]>","low":"低温 23℃","fengxiang":"北风","type":"雷阵雨"},{"date":"19日星期三","high":"高温 26℃","fengli":"<![CDATA[2级]]>","low":"低温 23℃","fengxiang":"西北风","type":"多云"},{"date":"20日星期四","high":"高温 28℃","fengli":"<![CDATA[1级]]>","low":"低温 20℃","fengxiang":"西南风","type":"多云"}],"ganmao":"感冒低发期，天气舒适，请注意多吃蔬菜水果，多喝水哦。","wendu":"23"},"status":1000,"desc":"OK"}
 framework - ERROR - 2020-08-16 21:34:26,155 - 请输入正确的加密方式，目前只支持MD5和SHA1
 NoneType: None
+framework - INFO - 2020-08-19 11:05:14,837 - 机房远程监控系统
+framework - INFO - 2020-08-19 11:27:57,138 - 机房远程监控系统
+framework - INFO - 2020-08-19 11:48:54,181 - 
+framework - INFO - 2020-08-19 11:49:10,460 - 
+framework - INFO - 2020-08-19 16:13:00,327 - 
+framework - INFO - 2020-08-19 16:13:13,238 - 
+framework - INFO - 2020-08-19 16:17:23,551 - 
+framework - INFO - 2020-08-19 16:21:11,074 - 
+framework - INFO - 2020-08-19 16:24:47,886 - 
+framework - INFO - 2020-08-19 16:32:38,413 - 
+framework - INFO - 2020-08-19 16:40:48,409 - 杭钢云计算数据中心
+framework - INFO - 2020-08-19 16:42:19,384 - 
+framework - INFO - 2020-08-19 17:17:48,791 - 
+framework - INFO - 2020-08-19 17:19:33,174 - 
+framework - INFO - 2020-08-19 17:30:48,854 - 
+framework - INFO - 2020-08-19 17:33:00,644 - 
+framework - INFO - 2020-08-19 17:35:21,370 - 
+framework - INFO - 2020-08-19 18:52:49,921 - 
+framework - INFO - 2020-08-19 18:55:43,879 - 
+framework - INFO - 2020-08-19 18:57:30,901 - 
+framework - INFO - 2020-08-19 20:06:30,580 - 杭钢云计算数据中心
+framework - INFO - 2020-08-19 20:09:23,194 - 
+framework - INFO - 2020-08-19 20:13:07,169 - 
+framework - INFO - 2020-08-19 20:14:48,733 - 
+framework - INFO - 2020-08-19 20:34:52,431 - 
+framework - INFO - 2020-08-19 20:35:53,089 - 
+framework - INFO - 2020-08-19 20:38:11,028 - 
+framework - INFO - 2020-08-20 11:44:55,369 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 12:22:26,033 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:26,194 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:27,191 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:28,550 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:28,601 - 
+framework - INFO - 2020-08-20 12:22:28,601 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:31,246 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:32,228 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:32,936 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:22:33,154 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:33,448 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:33,557 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:34,339 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:35,516 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:35,557 - 
+framework - INFO - 2020-08-20 12:23:35,557 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:37,592 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:39,192 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:23:39,277 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:10,673 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:10,772 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:11,851 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:13,183 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:13,277 - 
+framework - INFO - 2020-08-20 12:25:13,278 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:16,241 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:17,817 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:25:17,840 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:18,870 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:20,135 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:22,905 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:26,094 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:26,543 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 12:28:27,544 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:32,041 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:35,573 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:36,861 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:28:40,250 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:37,303 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:37,612 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:39,061 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:41,685 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:42,667 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 12:29:42,668 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:47,143 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:50,931 - 开始第1次扫描
+framework - INFO - 2020-08-20 12:29:51,318 - 开始第1次扫描
+framework - INFO - 2020-08-20 14:10:23,577 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 14:32:42,052 - 
+framework - INFO - 2020-08-20 14:32:50,461 - 本次select编号是1
+framework - INFO - 2020-08-20 14:32:53,754 - 本次select编号是2
+framework - INFO - 2020-08-20 14:34:56,846 - 本次select编号是3
+framework - INFO - 2020-08-20 14:50:05,653 - 
+framework - INFO - 2020-08-20 14:52:21,662 - 
+framework - INFO - 2020-08-20 14:52:30,499 - 本次select编号是0,button的名称是7天
+framework - INFO - 2020-08-20 14:52:33,752 - 本次select编号是1,button的名称是30天
+framework - INFO - 2020-08-20 14:54:14,981 - 
+framework - INFO - 2020-08-20 14:54:24,273 - 本次select编号是0,button的名称是1天
+framework - INFO - 2020-08-20 14:54:27,491 - 本次select编号是1,button的名称是7天
+framework - INFO - 2020-08-20 14:54:30,805 - 本次select编号是2,button的名称是30天
+framework - INFO - 2020-08-20 14:57:20,728 - info message
+framework - DEBUG - 2020-08-20 14:57:20,745 - debug
+framework - WARNING - 2020-08-20 14:57:20,745 - warnning
+framework - INFO - 2020-08-20 15:07:41,154 - 
+framework - INFO - 2020-08-20 15:07:51,180 - 带颗粒度报表查询，本次select编号是0,button的名称是1天
+framework - INFO - 2020-08-20 15:07:54,207 - result_table内共有1行
+framework - INFO - 2020-08-20 15:07:54,410 - 带颗粒度报表查询，本次select编号是1,button的名称是7天
+framework - INFO - 2020-08-20 15:07:57,501 - result_table内共有367行
+framework - INFO - 2020-08-20 15:07:57,740 - 带颗粒度报表查询，本次select编号是2,button的名称是30天
+framework - INFO - 2020-08-20 15:08:00,990 - result_table内共有1465行
+framework - INFO - 2020-08-20 15:44:57,443 - 
+framework - INFO - 2020-08-20 15:48:32,367 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 15:51:05,522 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 15:51:18,488 - 带颗粒度报表查询，本次select编号是0,button的名称是1天
+framework - INFO - 2020-08-20 15:51:21,519 - result_table内共有1行
+framework - INFO - 2020-08-20 15:55:09,040 - 杭钢云计算数据中心
+framework - INFO - 2020-08-20 15:55:19,284 - 带颗粒度报表查询，本次select编号是0,button的名称是1天
+framework - INFO - 2020-08-20 15:55:22,325 - result_table内共有1行
+framework - WARNING - 2020-08-20 15:55:22,341 - 查询1天天的数据结果为空
+framework - INFO - 2020-08-20 15:55:22,592 - 带颗粒度报表查询，本次select编号是1,button的名称是7天
+framework - INFO - 2020-08-20 15:55:25,667 - result_table内共有367行
+framework - INFO - 2020-08-20 15:55:26,057 - 带颗粒度报表查询，本次select编号是2,button的名称是30天
+framework - INFO - 2020-08-20 15:55:29,295 - result_table内共有1465行
+framework - INFO - 2020-08-20 15:57:44,957 - 
+framework - INFO - 2020-08-20 15:59:37,362 - 
+framework - INFO - 2020-08-20 16:11:42,635 - total_li的数量是4,total_reports_div的数量是58
+framework - INFO - 2020-08-20 16:11:42,865 - 报表和关联li对应的字典是
+framework - INFO - 2020-08-20 17:19:58,311 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 18:07:04,761 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 18:10:47,086 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 18:14:03,489 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 18:31:49,830 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 19:38:10,241 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 19:38:46,064 - 报表和关联li对应的字典是
+framework - INFO - 2020-08-20 19:48:54,756 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 19:51:35,194 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 19:58:52,871 - 字典是
+framework - INFO - 2020-08-20 20:05:08,109 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:09:28,167 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:09:40,482 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 20:09:51,046 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 20:10:05,325 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 20:10:08,356 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 20:10:25,677 - 当前报表名称：
+framework - INFO - 2020-08-20 20:10:26,343 - 修改报表模板的结果是:
+framework - INFO - 2020-08-20 20:10:27,335 - 当前报表名称：
+framework - INFO - 2020-08-20 20:10:36,513 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 20:10:45,922 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 20:14:02,502 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 20:21:32,712 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:36:35,626 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:42:21,591 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:50:59,617 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 20:51:46,434 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 20:51:51,250 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 20:54:32,836 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 21:01:49,360 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 21:02:36,101 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 21:03:01,046 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 21:03:04,736 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 21:04:12,128 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 21:04:15,840 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 21:08:02,941 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 21:08:17,531 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 21:08:22,194 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 21:08:44,763 - 当前报表名称：
+framework - INFO - 2020-08-20 21:10:28,552 - 有模板的报表的数量是37
+framework - INFO - 2020-08-20 21:10:30,199 - 当前报表名称：数据机房冷通道温度报表 
+framework - INFO - 2020-08-20 21:10:30,973 - 修改报表模板的结果是:修改报表模版成功!
+framework - INFO - 2020-08-20 21:10:32,670 - 当前报表名称：
+framework - INFO - 2020-08-20 21:10:49,606 - 修改报表模板的结果是:
+framework - INFO - 2020-08-20 21:10:50,181 - 当前报表名称：
+framework - INFO - 2020-08-20 21:11:04,034 - 修改报表模板的结果是:
+framework - INFO - 2020-08-20 21:11:04,636 - 当前报表名称：

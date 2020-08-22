@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试登录02</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-08-15 11:15:31</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:39.176000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-08-19 16:42:07</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:19.280103</p>
+<p class='attribute'><strong>Status:</strong> Pass 1</p>
 
 <p class='description'>这是今天的报告，请查收</p>
 </div>
@@ -221,66 +221,26 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_login.TestLogin</td>
-    <td>2</td>
+<tr class='passClass'>
+    <td>test_report.TestLogin</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login_0_admin</div></td>
+    <td class='none'><div class='testcase'>test_report_0_admin</div></td>
     <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_login_1_test01</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: Traceback (most recent call last):
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\parameterized\parameterized.py", line 518, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 34, in test_login
-    logger.info(self.page.system_name)
-  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\page\index_page.py", line 9, in system_name
-    return self.find_element(*self.loc_system_name).text
-AttributeError: 'NoneType' object has no attribute 'text'
-Traceback (most recent call last):
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\parameterized\parameterized.py", line 518, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\testCase\test_login.py", line 34, in test_login
-    logger.info(self.page.system_name)
-  File "E:\Program Files\JetBrains\MyPyProjects\automation_framework_demo\test\page\index_page.py", line 9, in system_name
-    return self.find_element(*self.loc_system_name).text
-AttributeError: 'NoneType' object has no attribute 'text'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

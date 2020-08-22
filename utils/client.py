@@ -28,3 +28,5 @@ class HttpClient:
         response.encoding = 'utf-8'
         logger.debug('请求成功{0}\n{1}'.format(response,response.text))
         return response
+if __name__ == '__main__':
+    HttpClient()

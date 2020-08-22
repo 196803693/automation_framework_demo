@@ -11,7 +11,7 @@ class Browser(object):
     def get(self,url):
         self.driver.get(url)
         self.driver.maximize_window()
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(20)
         return self
     def save_screenshot(self,name='screenshot'):
         day = time.strftime('%Y-%m-%d',time.localtime())
