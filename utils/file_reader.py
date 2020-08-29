@@ -52,6 +52,6 @@ if __name__ == '__main__':
     yr = YamlReader(yaml_path)
     print(yr.data[0].get('log'))
     excel_path = os.path.join(base_path,'data','user_account.xlsx')
-    er = ExcelReader(excel_path,sheet=0,simple=False)
+    er = ExcelReader(excel_path,sheet=0,simple=True)
     print(er.data)
 

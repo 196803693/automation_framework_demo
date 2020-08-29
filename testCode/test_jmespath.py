@@ -3,6 +3,7 @@ import jmespath
 # Object Projections
 # Whereas a list projection is defined for a JSON array, an object projection is defined for a JSON object. You can create an object projection using
 # the * syntax.
+source0={"a":"foo","b":"bar","c":"baz"}
 source7 = {
   "people": [
     {
@@ -31,5 +32,9 @@ source7 = {
     }
   ]
 }
+result0 = jmespath.search('a',source0)
+print('简单查找',result0)
+result1 = jmespath.search('people[0].general.age',source7)
+print('下层定位查找',result1)
 result = jmespath.search("people[?general.age > `20`].general | [0]",source7)
 print(result)

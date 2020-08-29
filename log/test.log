@@ -19,3 +19,121 @@ framework - WARNING - 2020-08-29 11:08:24,348 - warnning
 framework - INFO - 2020-08-29 11:08:48,392 - info message
 framework - DEBUG - 2020-08-29 11:08:48,393 - debug
 framework - WARNING - 2020-08-29 11:08:48,393 - warnning
+framework - INFO - 2020-08-29 17:07:36,914 - info message
+framework - DEBUG - 2020-08-29 17:07:36,914 - debug
+framework - WARNING - 2020-08-29 17:07:36,914 - warnning
+framework - DEBUG - 2020-08-29 17:11:25,559 - 请求成功<Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+framework - DEBUG - 2020-08-29 17:28:29,944 - 请求成功<Response [200]>
+{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+framework - DEBUG - 2020-08-29 17:35:06,727 - 请求成功<Response [200]>
+{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+framework - DEBUG - 2020-08-29 17:36:02,575 - 请求成功<Response [200]>
+{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+framework - DEBUG - 2020-08-29 17:36:26,575 - 请求成功<Response [200]>
+{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+framework - DEBUG - 2020-08-29 17:36:40,992 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"69","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 17:38:30,381 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"69","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 17:38:55,424 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"69","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 17:43:13,486 - 请求成功<Response [200]>
+{"resultcode":"101","reason":"错误的请求KEY","result":null,"error_code":10001}
+framework - DEBUG - 2020-08-29 17:43:39,505 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"69","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 17:52:59,309 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 17:59:26,908 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"多云","wid":"01","direct":"西南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云转晴","wid":{"day":"01","night":"00"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"27\/35℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"27\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/34℃","weather":"晴转雷阵雨","wid":{"day":"00","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/33℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:04:28,804 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"阴","wid":"02","direct":"南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:07:33,523 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"阴","wid":"02","direct":"南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - INFO - 2020-08-29 18:07:33,523 - 响应结果{
+    "reason": "查询成功!",
+    "result": {
+        "city": "深圳",
+        "realtime": {
+            "temperature": "31",
+            "humidity": "68",
+            "info": "阴",
+            "wid": "02",
+            "direct": "南风",
+            "power": "2级",
+            "aqi": "111"
+        },
+        "future": [
+            {
+                "date": "2020-08-29",
+                "temperature": "27/34℃",
+                "weather": "多云",
+                "wid": {
+                    "day": "01",
+                    "night": "01"
+                },
+                "direct": "持续无风向"
+            },
+            {
+                "date": "2020-08-30",
+                "temperature": "28/35℃",
+                "weather": "多云转雷阵雨",
+                "wid": {
+                    "day": "01",
+                    "night": "04"
+                },
+                "direct": "持续无风向"
+            },
+            {
+                "date": "2020-08-31",
+                "temperature": "28/35℃",
+                "weather": "雷阵雨",
+                "wid": {
+                    "day": "04",
+                    "night": "04"
+                },
+                "direct": "持续无风向"
+            },
+            {
+                "date": "2020-09-01",
+                "temperature": "28/35℃",
+                "weather": "雷阵雨",
+                "wid": {
+                    "day": "04",
+                    "night": "04"
+                },
+                "direct": "持续无风向"
+            },
+            {
+                "date": "2020-09-02",
+                "temperature": "28/34℃",
+                "weather": "雷阵雨",
+                "wid": {
+                    "day": "04",
+                    "night": "04"
+                },
+                "direct": "持续无风向"
+            }
+        ]
+    },
+    "error_code": 0
+}
+framework - DEBUG - 2020-08-29 18:10:42,804 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"阴","wid":"02","direct":"南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:11:08,865 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"68","info":"阴","wid":"02","direct":"南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:45:04,199 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"71","info":"阴","wid":"02","direct":"东南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:46:15,549 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"71","info":"阴","wid":"02","direct":"东南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 18:46:34,836 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"31","humidity":"71","info":"阴","wid":"02","direct":"东南风","power":"2级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 19:02:03,819 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"30","humidity":"72","info":"阴","wid":"02","direct":"东南风","power":"3级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 19:02:21,615 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"30","humidity":"72","info":"阴","wid":"02","direct":"东南风","power":"3级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
+framework - DEBUG - 2020-08-29 19:02:28,360 - 请求成功<Response [200]>
+{"reason":"查询成功!","result":{"city":"深圳","realtime":{"temperature":"30","humidity":"72","info":"阴","wid":"02","direct":"东南风","power":"3级","aqi":"111"},"future":[{"date":"2020-08-29","temperature":"27\/34℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"持续无风向"},{"date":"2020-08-30","temperature":"28\/35℃","weather":"多云转雷阵雨","wid":{"day":"01","night":"04"},"direct":"持续无风向"},{"date":"2020-08-31","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-01","temperature":"28\/35℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"},{"date":"2020-09-02","temperature":"28\/34℃","weather":"雷阵雨","wid":{"day":"04","night":"04"},"direct":"持续无风向"}]},"error_code":0}
