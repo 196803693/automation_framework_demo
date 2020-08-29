@@ -10,7 +10,7 @@ class Logger:
         # self.logger.setLevel(logging.INFO)
         logging.root.setLevel(logging.NOTSET)
         log_cfg = Config().get('log')
-        print(log_cfg)
+        print('日志名称',log_cfg.get('file_name'))
         self.log_file_name = log_cfg.get('file_name') if log_cfg and log_cfg.get('file_name') else 'test.log'
         #日志输出的级别
         self.console_output_level = log_cfg.get('consle_level') if log_cfg and log_cfg.get('consle_level') else 'WARNING'
@@ -31,7 +31,7 @@ class Logger:
             self.logger.addHandler(console_hdl)
             #每天重新创建一个日志文件，保留backupCount份
             file_hdl = TimedRotatingFileHandler(filename=os.path.join(LOG_PAHT,self.log_file_name),
-                                                when='D',
+                                                when='MIDNIGHT',
                                                 interval=1,
                                                 backupCount=self.backup_count,
                                                 delay=False,
@@ -43,6 +43,7 @@ class Logger:
         return self.logger
 logger = Logger().get_logger()
 if __name__ == '__main__':
+    print(logger.hasHandlers())
     logger.info('info message')
     logger.debug('debug')
     logger.warning('warnning')

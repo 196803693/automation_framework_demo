@@ -20,13 +20,14 @@ class YamlReader:
 class SheetTypeError(Exception):
     pass
 class ExcelReader:
-    def __init__(self,file_path,sheet=0,title_line=True):
+    def __init__(self,file_path,sheet=0,title_line=True,simple=True):
         if os.path.exists(file_path):
             self.excel_path = file_path
         else: raise FileNotFoundError
         self.sheet = sheet
         self._data = list()
         self.title_line = title_line
+        self.simple = simple
     @property
     def data(self):
         if not self._data:
@@ -39,8 +40,11 @@ class ExcelReader:
                 st = workbook.sheet_by_name(self.sheet)
             title = st.row_values(0)
             for r in range(1,st.nrows):
-                #依次遍历其余行，与首行组成dict，拼到_data中
-                self._data.append(dict(zip(title,st.row_values(r))))
+                if self.simple:
+                    #依次遍历其余行，与首行组成dict，拼到_data中
+                    self._data.append(list(st.row_values(r)))
+                else:
+                    self._data.append(dict(zip(title,st.row_values(r))))
         return self._data
 if __name__ == '__main__':
     base_path = os.path.dirname(os.getcwd())
@@ -48,6 +52,6 @@ if __name__ == '__main__':
     yr = YamlReader(yaml_path)
     print(yr.data[0].get('log'))
     excel_path = os.path.join(base_path,'data','user_account.xlsx')
-    er = ExcelReader(excel_path,sheet=0)
+    er = ExcelReader(excel_path,sheet=0,simple=False)
     print(er.data)
 

@@ -8,13 +8,14 @@ from parameterized import parameterized
 from test.page.login_page import LoginPage
 from test.page.index_page import IndexPage
 
+account_path = DATA_PAHT + '\\user_account.xlsx'
+account = ExcelReader(account_path, sheet=1).data
+
 class TestLogin(unittest.TestCase):
-    URL = Config().get('URL')
+    URL = Config().get('EAF-URL')
     txtAccount = (By.ID, 'txtAccount')
     txtPassword = (By.ID, 'txtPassword')
-    account_path = DATA_PAHT + '\\user_account.xlsx'
     print('文件路径', account_path)
-    account = ExcelReader(account_path).data
 
     def setUp(self):
         os.system('taskkill /f /im chromedriver.exe')
@@ -23,8 +24,7 @@ class TestLogin(unittest.TestCase):
     def tearDown(self):
         self.page.sleep(1.5)
         self.page.quit()
-    @parameterized.expand([(account[0]['username'],str(account[0]['password'])),
-                           (account[1]['username'],str(account[1]['password']))])
+    @parameterized.expand(account)
     def test_login(self,username,password):
         self.page = LoginPage(self.page)
         self.page.login(username,password)
@@ -32,4 +32,4 @@ class TestLogin(unittest.TestCase):
         self.assertIsNotNone(self.page.system_name)
         logger.info(self.page.system_name)
 if __name__ == '__main__':
-    unittest.main()
+    print(account)

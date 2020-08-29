@@ -2,6 +2,7 @@
 在这里添加各种自定义的断言，断言失败返回AssertionError就好
 '''
 
+#判断响应code
 def assertionHttpCode(response,code_list):
     res_code = response.status_code
     if not code_list:
